@@ -1,0 +1,39 @@
+Wir verwenden das rwc uxframework von Mobiliar als Grundlage für unser GUI. Der entsprechende Code (https://git.mobi.mobicorp.ch/projects/RWC/repos/rwc-uxframework/browse) ist bereits in unserem Git repo eingecheckt (https://git.mobi.mobicorp.ch/projects/CD/repos/blubb/browse)
+
+•	4 Views: 
+o	1.  neuer Schadenfall kann angegeben werden
+Zu füllende Felder:
+           Beschreibung
+           Summe
+           Datum 
+Button < Schaden melden >
+
+o	2. Deckung prüfen
+Objekt
+Deckung
+Produkt
+Baustein
+Status
+Vertrag
+Zahlungen
+Buttons < Schaden versichert > / < Schaden nicht versichert >    
+
+o	3. Schadenwert setzen (nur falls Schaden versichert in der vorigen View ausgewählt wird)
+gemeldeter Schadenbetrag
+Selbstbehalt
+Schadenbetrag nach Expertise
+Begründung
+Button < Übermitteln >
+
+o	4. Auszahlung
+zu überweisender Betrag
+Versicherter/Empfänger
+
+Auswählen Assistance <ja> / <nein>
+Button < Ausführen >  --> Status Schaden = erledigt
+
+•	Parallel dazu wird ein linearer Workflow in Form von farblichen Buttons angezeigt (entweder zu oberst oder zu unterest auf jeder View).
+Bsp: Schadenmeldung --> Deckungprüfung --> Expertise --> Assistance --> Auszahlung
+
+•	Noch zu klären:
+Wird das Login tatsächlich umgesetzt (mit Blockchain / Approval von Konsortium) oder wird das Konzept nur mündlich erklärt ?
